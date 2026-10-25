@@ -4,9 +4,9 @@
   "description": "Remote MCP Server for Larsson & Jennings - Shopify, Triple Whale, Klaviyo integrations",
   "type": "module",
   "scripts": {
-    "build": "node api.js && tsc",
-    "start": "node api.js && node dist/index.js",
-    "dev": "node api.js && tsx watch src/index.ts"
+    "build": "node init && tsc",
+    "start": "node init && node dist/index.js",
+    "dev": "node init && tsx watch src/index.ts"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.12.1",
